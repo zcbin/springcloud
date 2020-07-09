@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/consul-customer/consul-customer.iml" filepath="$PROJECT_DIR$/consul-customer/consul-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-provider/consul-provider.iml" filepath="$PROJECT_DIR$/consul-provider/consul-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/erueka-server7002/erueka-server7002.iml" filepath="$PROJECT_DIR$/erueka-server7002/erueka-server7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-customer/eureka-client-customer.iml" filepath="$PROJECT_DIR$/eureka-client-customer/eureka-client-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-provider01/eureka-client-provider01.iml" filepath="$PROJECT_DIR$/eureka-client-provider01/eureka-client-provider01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-provider02/eureka-client-provider02.iml" filepath="$PROJECT_DIR$/eureka-client-provider02/eureka-client-provider02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server7001/eureka-server7001.iml" filepath="$PROJECT_DIR$/eureka-server7001/eureka-server7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+    </modules>
+  </component>
+</project>
