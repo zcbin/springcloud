@@ -22,6 +22,7 @@
         <module>eureka-client-customer</module>
         <module>consul-provider</module>
         <module>consul-customer</module>
+        <module>feign-coutomer</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
