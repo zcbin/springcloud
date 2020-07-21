@@ -7,13 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="consul-provider" />
+        <module name="eureka-server7001" />
         <module name="erueka-server7002" />
         <module name="eureka-client-provider02" />
         <module name="eureka-client-provider01" />
-        <module name="feign-coutomer" />
         <module name="consul-customer" />
+        <module name="feign-coutomer" />
         <module name="eureka-client-customer" />
-        <module name="eureka-server7001" />
+        <module name="hystrix-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server7001" target="1.8" />
       <module name="feign-coutomer" target="1.8" />
+      <module name="hystrix-provider" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -42,6 +44,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-server7001" options="-parameters" />
       <module name="feign-coutomer" options="-parameters" />
+      <module name="hystrix-provider" options="-parameters" />
       <module name="springcloud" options="-parameters" />
     </option>
   </component>

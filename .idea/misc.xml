@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/consul-provider/pom.xml" />
         <option value="$PROJECT_DIR$/consul-customer/pom.xml" />
         <option value="$PROJECT_DIR$/feign-coutomer/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-provider/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
