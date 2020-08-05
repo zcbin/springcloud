@@ -11,9 +11,11 @@
         <module name="erueka-server7002" />
         <module name="eureka-client-provider02" />
         <module name="eureka-client-provider01" />
+        <module name="gateway" />
         <module name="consul-customer" />
         <module name="feign-coutomer" />
         <module name="eureka-client-customer" />
+        <module name="hystrix-customer" />
         <module name="hystrix-provider" />
       </profile>
     </annotationProcessing>
@@ -28,6 +30,8 @@
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server7001" target="1.8" />
       <module name="feign-coutomer" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="hystrix-customer" target="1.8" />
       <module name="hystrix-provider" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
@@ -44,6 +48,8 @@
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-server7001" options="-parameters" />
       <module name="feign-coutomer" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="hystrix-customer" options="-parameters" />
       <module name="hystrix-provider" options="-parameters" />
       <module name="springcloud" options="-parameters" />
     </option>

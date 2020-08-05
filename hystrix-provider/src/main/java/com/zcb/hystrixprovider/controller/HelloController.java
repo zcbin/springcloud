@@ -23,7 +23,7 @@ public class HelloController {
 
 
     @GetMapping(value = "/provider/hystrix/hello")
-    public String hello(@RequestParam(value = "id") String id) {
+    public String hello(@RequestParam(value = "id", required = false) String id) {
         return helloService.hello(id);
     }
 
@@ -33,4 +33,8 @@ public class HelloController {
         return helloService.timeOut();
     }
 
+    @GetMapping(value = "/provider/hystrix/breaker")
+    public String HelloCircuitBreaker(@RequestParam(value = "id", required = false) String id) {
+        return helloService.helloCircuitBreaker(id);
+    }
 }
