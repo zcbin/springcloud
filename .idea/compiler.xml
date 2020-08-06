@@ -7,14 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="consul-provider" />
-        <module name="eureka-server7001" />
+        <module name="gateway" />
         <module name="erueka-server7002" />
+        <module name="stream-kafka-consumer" />
         <module name="eureka-client-provider02" />
         <module name="eureka-client-provider01" />
-        <module name="gateway" />
+        <module name="stream-kafka-provider" />
+        <module name="eureka-client-customer" />
         <module name="consul-customer" />
         <module name="feign-coutomer" />
-        <module name="eureka-client-customer" />
+        <module name="eureka-server7001" />
         <module name="hystrix-customer" />
         <module name="hystrix-provider" />
       </profile>
@@ -34,6 +36,8 @@
       <module name="hystrix-customer" target="1.8" />
       <module name="hystrix-provider" target="1.8" />
       <module name="springcloud" target="1.8" />
+      <module name="stream-kafka-consumer" target="1.8" />
+      <module name="stream-kafka-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -52,6 +56,8 @@
       <module name="hystrix-customer" options="-parameters" />
       <module name="hystrix-provider" options="-parameters" />
       <module name="springcloud" options="-parameters" />
+      <module name="stream-kafka-consumer" options="-parameters" />
+      <module name="stream-kafka-provider" options="-parameters" />
     </option>
   </component>
 </project>

@@ -26,6 +26,8 @@
         <module>hystrix-provider</module>
         <module>hystrix-customer</module>
         <module>gateway</module>
+        <module>stream-kafka-provider</module>
+        <module>stream-kafka-consumer</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

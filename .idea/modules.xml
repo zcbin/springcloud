@@ -14,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/hystrix-customer/hystrix-customer.iml" filepath="$PROJECT_DIR$/hystrix-customer/hystrix-customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-provider/hystrix-provider.iml" filepath="$PROJECT_DIR$/hystrix-provider/hystrix-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-kafka-consumer/stream-kafka-consumer.iml" filepath="$PROJECT_DIR$/stream-kafka-consumer/stream-kafka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-kafka-provider/stream-kafka-provider.iml" filepath="$PROJECT_DIR$/stream-kafka-provider/stream-kafka-provider.iml" />
     </modules>
   </component>
 </project>
