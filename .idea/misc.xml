@@ -18,12 +18,10 @@
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/stream-kafka-provider/pom.xml" />
         <option value="$PROJECT_DIR$/stream-kafka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider01/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-consumer/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/eureka-client-provider/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

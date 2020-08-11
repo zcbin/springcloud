@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/alibaba-nacos-consumer/alibaba-nacos-consumer.iml" filepath="$PROJECT_DIR$/alibaba-nacos-consumer/alibaba-nacos-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-nacos-provider/alibaba-nacos-provider.iml" filepath="$PROJECT_DIR$/alibaba-nacos-provider/alibaba-nacos-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-nacos-provider2/alibaba-nacos-provider2.iml" filepath="$PROJECT_DIR$/alibaba-nacos-provider2/alibaba-nacos-provider2.iml" />
       <module fileurl="file://$PROJECT_DIR$/consul-customer/consul-customer.iml" filepath="$PROJECT_DIR$/consul-customer/consul-customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/consul-provider/consul-provider.iml" filepath="$PROJECT_DIR$/consul-provider/consul-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/erueka-server7002/erueka-server7002.iml" filepath="$PROJECT_DIR$/erueka-server7002/erueka-server7002.iml" />

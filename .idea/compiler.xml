@@ -6,58 +6,71 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="consul-provider" />
+        <module name="consul-customer" />
+        <module name="hystrix-provider" />
+        <module name="hystrix-customer" />
+        <module name="demo" />
         <module name="gateway" />
-        <module name="erueka-server7002" />
         <module name="stream-kafka-consumer" />
+        <module name="eureka-server7001" />
+        <module name="eureka-client-customer" />
+        <module name="feign-coutomer" />
+        <module name="alibaba-nacos-provider2" />
+        <module name="consul-provider" />
+        <module name="erueka-server7002" />
+        <module name="alibaba-nacos-consumer" />
+        <module name="alibaba-nacos-provider" />
+        <module name="stream-kafka-provider" />
         <module name="eureka-client-provider02" />
         <module name="eureka-client-provider01" />
-        <module name="stream-kafka-provider" />
-        <module name="eureka-client-customer" />
-        <module name="consul-customer" />
-        <module name="feign-coutomer" />
-        <module name="eureka-server7001" />
-        <module name="hystrix-customer" />
-        <module name="hystrix-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="consul-customer" target="1.8" />
-      <module name="consul-provider" target="1.8" />
-      <module name="erueka-server7002" target="1.8" />
-      <module name="eureka-client-customer" target="1.8" />
+      <module name="alibaba-nacos-consumer" target="1.5" />
+      <module name="alibaba-nacos-provider" target="1.5" />
+      <module name="alibaba-nacos-provider2" target="1.5" />
+      <module name="consul-customer" target="1.5" />
+      <module name="consul-provider" target="1.5" />
+      <module name="demo" target="1.8" />
+      <module name="demo1" target="1.8" />
+      <module name="erueka-server7002" target="1.5" />
+      <module name="eureka-client-customer" target="1.5" />
       <module name="eureka-client-provider" target="1.8" />
-      <module name="eureka-client-provider01" target="1.8" />
-      <module name="eureka-client-provider02" target="1.8" />
+      <module name="eureka-client-provider01" target="1.5" />
+      <module name="eureka-client-provider02" target="1.5" />
       <module name="eureka-server" target="1.8" />
-      <module name="eureka-server7001" target="1.8" />
-      <module name="feign-coutomer" target="1.8" />
-      <module name="gateway" target="1.8" />
-      <module name="hystrix-customer" target="1.8" />
-      <module name="hystrix-provider" target="1.8" />
-      <module name="springcloud" target="1.8" />
-      <module name="stream-kafka-consumer" target="1.8" />
-      <module name="stream-kafka-provider" target="1.8" />
+      <module name="eureka-server7001" target="1.5" />
+      <module name="feign-coutomer" target="1.5" />
+      <module name="gateway" target="1.5" />
+      <module name="hystrix-customer" target="1.5" />
+      <module name="hystrix-provider" target="1.5" />
+      <module name="springcloud" target="1.5" />
+      <module name="stream-kafka-consumer" target="1.5" />
+      <module name="stream-kafka-provider" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="consul-customer" options="-parameters" />
-      <module name="consul-provider" options="-parameters" />
-      <module name="erueka-server7002" options="-parameters" />
-      <module name="eureka-client-customer" options="-parameters" />
+      <module name="alibaba-nacos-consumer" options="" />
+      <module name="alibaba-nacos-provider" options="" />
+      <module name="alibaba-nacos-provider2" options="" />
+      <module name="consul-customer" options="" />
+      <module name="consul-provider" options="" />
+      <module name="demo1" options="-parameters" />
+      <module name="erueka-server7002" options="" />
+      <module name="eureka-client-customer" options="" />
       <module name="eureka-client-provider" options="-parameters" />
-      <module name="eureka-client-provider01" options="-parameters" />
-      <module name="eureka-client-provider02" options="-parameters" />
+      <module name="eureka-client-provider01" options="" />
+      <module name="eureka-client-provider02" options="" />
       <module name="eureka-server" options="-parameters" />
-      <module name="eureka-server7001" options="-parameters" />
-      <module name="feign-coutomer" options="-parameters" />
-      <module name="gateway" options="-parameters" />
-      <module name="hystrix-customer" options="-parameters" />
-      <module name="hystrix-provider" options="-parameters" />
+      <module name="eureka-server7001" options="" />
+      <module name="feign-coutomer" options="" />
+      <module name="gateway" options="" />
+      <module name="hystrix-customer" options="" />
+      <module name="hystrix-provider" options="" />
       <module name="springcloud" options="-parameters" />
-      <module name="stream-kafka-consumer" options="-parameters" />
-      <module name="stream-kafka-provider" options="-parameters" />
+      <module name="stream-kafka-consumer" options="" />
+      <module name="stream-kafka-provider" options="" />
     </option>
   </component>
 </project>
