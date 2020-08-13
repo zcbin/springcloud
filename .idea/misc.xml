@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/alibaba-nacos-provider01/pom.xml" />
         <option value="$PROJECT_DIR$/alibaba-nacos-provider/pom.xml" />
         <option value="$PROJECT_DIR$/alibaba-nacos-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-nacos-config/pom.xml" />
       </list>
     </option>
   </component>

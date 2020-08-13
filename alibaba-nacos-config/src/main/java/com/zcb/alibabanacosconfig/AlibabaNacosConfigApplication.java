@@ -1,17 +1,15 @@
-package com.zcb.alibabanacosconsumer;
+package com.zcb.alibabanacosconfig;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableFeignClients
-public class AlibabaNacosConsumerApplication {
+public class AlibabaNacosConfigApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AlibabaNacosConsumerApplication.class, args);
+        SpringApplication.run(AlibabaNacosConfigApplication.class, args);
     }
 
 }

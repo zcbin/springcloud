@@ -11,7 +11,7 @@ import javax.annotation.Resource;
  * @title: Service
  * @packageName: com.zcb.alibabanacosconsumer.service
  * @projectName: springcloud
- * @description:
+ * @description: restTemplate + ribbon负载均衡
  * @date: 2020/8/11 23:14
  */
 @Service

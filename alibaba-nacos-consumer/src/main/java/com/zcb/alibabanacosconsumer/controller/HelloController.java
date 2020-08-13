@@ -1,6 +1,7 @@
 package com.zcb.alibabanacosconsumer.controller;
 
 import com.zcb.alibabanacosconsumer.service.HelloService;
+import com.zcb.alibabanacosconsumer.service.IHelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,8 +18,23 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @Autowired
     private HelloService helloService;
+
+    @Autowired
+    private IHelloService iHelloService;
     @GetMapping(value = "/nacos/consumer/hello")
+    /**
+     * restTemplate
+     */
     public String hello() {
         return helloService.hello();
+    }
+
+    /**
+     * feign
+     * @return
+     */
+    @GetMapping(value = "/nacos/consumer/hello1")
+    public String hello1() {
+        return iHelloService.hello();
     }
 }

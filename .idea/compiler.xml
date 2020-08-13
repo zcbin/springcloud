@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="consul-customer" />
-        <module name="hystrix-provider" />
+        <module name="alibaba-nacos-provider" />
         <module name="hystrix-customer" />
         <module name="demo" />
         <module name="gateway" />
@@ -18,14 +18,16 @@
         <module name="alibaba-nacos-provider2" />
         <module name="consul-provider" />
         <module name="erueka-server7002" />
-        <module name="alibaba-nacos-consumer" />
-        <module name="alibaba-nacos-provider" />
-        <module name="stream-kafka-provider" />
         <module name="eureka-client-provider02" />
+        <module name="alibaba-nacos-consumer" />
+        <module name="alibaba-nacos-config" />
+        <module name="stream-kafka-provider" />
+        <module name="hystrix-provider" />
         <module name="eureka-client-provider01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alibaba-nacos-config" target="1.5" />
       <module name="alibaba-nacos-consumer" target="1.5" />
       <module name="alibaba-nacos-provider" target="1.5" />
       <module name="alibaba-nacos-provider2" target="1.5" />
@@ -51,6 +53,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alibaba-nacos-config" options="" />
       <module name="alibaba-nacos-consumer" options="" />
       <module name="alibaba-nacos-provider" options="" />
       <module name="alibaba-nacos-provider2" options="" />

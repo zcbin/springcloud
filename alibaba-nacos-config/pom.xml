@@ -8,32 +8,24 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.zcb</groupId>
-    <artifactId>alibaba-nacos-consumer</artifactId>
+    <artifactId>alibaba-nacos-config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>alibaba-nacos-consumer</name>
+    <name>alibaba-nacos-config</name>
     <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
-
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
 
         <dependency>
